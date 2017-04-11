@@ -31,7 +31,7 @@ def add_string_as_number(first, second)
 end
 
 def number_to_full_month_name(number)   
-    month_names = %w(January February March April May June July August September October November Decemberi)
+    month_names = %w(January February March April May June July August September October November December)
     return month_names[number - 1]
 end
 
